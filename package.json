@@ -1,0 +1,33 @@
+{
+  "name": "half-open-range",
+  "version": "0.0.1",
+  "description": "Utilities dealing with half-open ranges (or intervals).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*",
+    "coverage": "istanbul cover _mocha -- -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stackfull/half-open-range.git"
+  },
+  "keywords": [
+    "range",
+    "interval",
+    "value"
+  ],
+  "author": "Paul Thomas <paul@stackfull.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stackfull/half-open-range/issues"
+  },
+  "homepage": "https://github.com/stackfull/half-open-range",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.6.0",
+    "webpack": "^1.5.3"
+  }
+}

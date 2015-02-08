@@ -1,0 +1,10 @@
+{
+  "globalstrict": true,
+  "eqnull": true,
+  "expr": true,
+  "globals": {
+    "require": false,
+    "describe": true,
+    "it": true,
+  }
+}
